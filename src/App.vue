@@ -9,15 +9,23 @@
           </md-button>
 
           <md-menu-content>
-            <md-menu-item>My Item 1</md-menu-item>
-            <md-menu-item>My Item 2</md-menu-item>
-            <md-menu-item>My Item 3</md-menu-item>
+            <md-menu-item>
+              <router-link to="/categories">Categorias</router-link>
+            </md-menu-item>
+            <md-menu-item>
+              <router-link to="/products">Products</router-link>
+            </md-menu-item>
           </md-menu-content>
 
         </md-menu>
         <h1 class="md-title">{{ title }}</h1>
       </div>
     </md-tollbar>
+
+    <md-row>
+      <router-view></router-view>
+    </md-row>
+    
   </div>
 </template>
 
