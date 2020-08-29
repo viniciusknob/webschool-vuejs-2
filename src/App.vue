@@ -1,28 +1,17 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to My Vue.js App"/>
+  <div class="phone-viewport">
+    <md-tollbar>
+      <h1 class="md-title">Ecommerce Webschool with Vue.JS 2</h1>
+    </md-tollbar>
   </div>
 </template>
 
 <script>
-  import HelloWorld from './components/HelloWorld.vue'
-
   export default {
-    name: 'WebschoolComponent',
-    components: {
-      HelloWorld
-    }
+    name: 'WebschoolComponent'
   }
 </script>
 
 <style>
-  #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
+
 </style>
